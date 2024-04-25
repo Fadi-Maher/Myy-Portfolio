@@ -3,7 +3,7 @@
 }
 @media (max-width: 600px) {
     .productDetails{
-        width: 93%;
+        width: 97%;
     }
   
     }
@@ -16,6 +16,7 @@
 .productDetails .coverImg {
     box-shadow: 5px 5px 10px var(--bolder-color);
     transition: all 0.5s;
+    width: 85%;
 } 
 
 .productDetails .coverImg:hover{

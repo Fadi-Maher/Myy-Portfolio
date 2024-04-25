@@ -42,12 +42,12 @@ if(item.id == id){
         </h1>
         <Slide  direction='left' duration={1000}>
         <picture className=' d-flex justify-content-center'>
-        <img src={element.imges.cover} alt="cover" className={` ${Style.coverImg} w-75 rounded-5`} />
+        <img src={element.imges.cover} alt="cover" className={` ${Style.coverImg} rounded-5`} />
         </picture>
         </Slide>
         <Fade  direction='up' duration={1000}>
         <div className={`${Style.descProject} my-5`}>
-            <p className=' h5'> <span className='border-bottom fw-semibold'> Description :</span> {element.description}</p>
+            <p className=' h5'> <span className='border-bottom fw-semibold '> Description :</span> {element.description}</p>
             <p  className=' h5 mt-3'> <span className='border-bottom fw-semibold me-1'> Category :</span> {element.category}</p>
            <div className=' d-flex justify-content-around my-5'>
            <a href={`${element.demo}`} className='btn'  target='_block'> 
@@ -60,7 +60,7 @@ if(item.id == id){
         </div>
         </Fade>
 
-        <div className="slider-container w-100 position-relative start-50 translate-middle-x ">
+        <div className="slider-container w-75 position-relative start-50 translate-middle-x ">
       <Slider {...settings} >
         <div className='d-flex align-items-center'>
           <img src={element.imges.p1} className='w-75 rounded-5 ' alt="1" />

@@ -13,7 +13,7 @@ export  function Hero() {
         <meta name="Hero" content="This is hero page about me and my cv and links" />
       </Helmet>
 
-      <section className={` mx-auto ${Style.hero}`}>
+      <section className={` mx-auto ${Style.hero} `}>
         <div className="row ">
           <div className={`${Style.heroFlex} align-items-center`}>
           <div className='col-md-8 '>
@@ -24,7 +24,7 @@ export  function Hero() {
             <Slide  direction='left' duration={1000}>
             <div className={`${Style.aboutMe}`}>
             <h1 className=' fw-bolder my-5'>Frontend React.Js Developer </h1>
-            <p>Hi, My name is <span className='px-2 py-1 rounded-4 cursor-pointer'>Mina Medhat Rizkalla</span> . I work as a Software Engineer and specialize in React, and Front-End Web Development, I thrive on learning
+            <p >Hi, My name is <span className='px-2 py-1 rounded-4 cursor-pointer'>Mina Medhat Rizkalla</span> . I work as a Software Engineer and specialize in React, and Front-End Web Development, I thrive on learning
 and teamwork, dedicated to staying updated on industry advancements and emerging technologies to improve
 skills and deliver innovative solutions consistently.</p>
           </div>
