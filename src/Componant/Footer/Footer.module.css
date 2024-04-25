@@ -1,0 +1,24 @@
+footer{
+    border-top: 1px solid var(--bolder-color);
+}
+
+@media (max-width: 600px) {
+    .footerStyle{
+        width: 97%;
+    }
+    }
+    .footerStyle{
+        width: 80%;
+        
+    
+    }
+
+    .footerStyle ul li .linkStyle {
+        color: var(--text-color) !important ;
+        transition:all 0.3s ;
+        font-weight: 500;
+    }
+
+    .footerStyle ul li .linkStyle:hover{
+        color: var(--second-color) !important;
+    }

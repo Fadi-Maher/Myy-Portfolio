@@ -1,0 +1,53 @@
+.hero{
+    width: 80%;
+}
+.hero .imgStyle{
+    width: 10rem;
+    border: .0625rem solid blue;
+    border-radius: 50% ;
+    padding: .225rem;
+    transition: all 0.5s;
+    
+}
+.hero .imgStyle:hover{
+transform: scale(0.95);
+}
+.aboutMe p {
+    color: var(--text-color);
+}
+.aboutMe p span {
+    background-color: var(--bolder-color);
+    
+}
+.hero .socialIcons i{
+    color: var(--text-color);
+    transition: 0.5s all;
+}
+
+.hero .socialIcons i:hover{
+    color: var(--bolder-color);
+    transform: scale(1.1);
+}
+
+.developerAnimate{
+    width: 31rem !important;
+    transform: translate(0px , 55px);
+}
+
+.heroFlex{
+    display: flex;
+}
+
+@media (max-width: 600px) {
+    .hero{
+        width: 97%;
+    }
+    .heroFlex{
+        display: block;
+    }
+    .developerAnimate{
+        
+        transform: translate(-40px , 0px);
+    }
+    
+    }

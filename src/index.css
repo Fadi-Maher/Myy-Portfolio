@@ -1,13 +1,101 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+    --main-color: #000 ;
+    --light-color: #fff ;
+    --container-color :  #18181B;
+    --bolder-color : #7C7C84;
+    --shadow: rgba(214, 219, 224, 0.2) 0px 2px 4px -1px, rgba(145, 158, 171, .14) 0px 4px 5px 0px, rgba(145, 158, 171, .12) 0px 1px 10px 0px;
+    --font-family: "Roboto", sans-serif;
+    --rating-color: darkorange;
+    --text-color : #dadae0;
+    --bg-colorbg-color : #252529 ;
+    --second-color : #2CBBA9;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.light {
+    --main-color: #e3e3e6 ;
+    --light-color:   ;
+    --container-color : #fff ;
+    --bolder-color : rgba(202,202,202,0.518) ;
+    --shadow: rgba(214, 219, 224, 0.2) 0px 2px 4px -1px, rgba(145, 158, 171, .14) 0px 4px 5px 0px, rgba(145, 158, 171, .12) 0px 1px 10px 0px;
+    --font-family: "Roboto", sans-serif;
+    --rating-color: darkorange;
+    --text-color : rgb(39,39,42) ;
+    --bg-colorbg-color : rgba(202,202,202,0.518) ;
+    --second-color : #2CBBA9;
 }
+
+*{
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: var(--font-family) !important;
+    background-color: var(--main-color)!important ;
+    color: var(--light-color) !important;
+}
+
+.container-color{
+  background-color: var(--container-color) !important;
+  border: 1px solid var(--bolder-color);
+}
+
+.rating-color {
+    color: var(--rating-color);
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+a,
+a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.font-sm {
+    font-size: 14px;
+}
+
+.text-main {
+    color: var(--main-color);
+}
+
+.bg-main {
+    background-color: var(--main-color) !important;
+}
+
+.bg-main-light {
+    background-color: var(--light-color) !important;
+}
+
+a {
+    text-decoration: none !important;
+    color: black !important;
+}
+
+::-webkit-scrollbar {
+    width: 0.8rem;
+   }
+   
+  ::-webkit-scrollbar-track {
+    border: 7px solid #292c3b;
+    box-shadow: inset 0 0 2.5px 2px rgba(0, 0, 0, 0.5);
+    border-radius: 4px;
+    background-color: #d4d4d8;
+    }
+   
+  ::-webkit-scrollbar-thumb {
+    background: var(--bolder-color);
+    border-radius: 2px;
+  }
+   
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--bg-colorbg-color);
+  }
+   
+  /* for Firefox */
+   html {scrollbar-color: var(--bolder-color) #3d4a59;} 

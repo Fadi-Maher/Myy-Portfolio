@@ -1,0 +1,60 @@
+.contactUs{
+    width: 80%;
+}
+
+@media (max-width: 600px) {
+    .contactUs{
+        width: 97%;
+    }
+    }
+
+    .contactUs h2 i {
+        color: var(--text-color);
+    }
+
+    .contactUs p {
+        color: var(--text-color);
+        
+    }
+
+    .contactUs form label {
+        color: var(--text-color);
+    }
+
+    .contactUs form #email , .contactUs form #message{
+        all: unset;
+        background-color: var(--bg-colorbg-color);
+        border: 1px solid var(--bolder-color);
+        width: 65%;
+        transition: all 0.3s;
+    }
+
+    .contactUs form button{
+        color: var(--light-color);
+        opacity: 0.5;
+        background-color: var(--bg-colorbg-color);
+        border: 1px solid var(--bolder-color);
+        
+    }
+    .contactUs form button:hover {
+        border: 1px solid var(--second-color);
+    }
+
+    .contactUs form #email:focus ,
+     .contactUs form #message:focus {
+        border: 1px solid var(--second-color);
+    }
+
+    .contactUs form #email:hover ,
+    .contactUs form #message:hover {
+        border: 1px solid var(--second-color);
+    }
+
+    .successAnimate{
+        width: 45px;
+        height: 45px;
+    }
+
+    .emailAnimate{
+        margin-top: -1.5rem !important;
+    }

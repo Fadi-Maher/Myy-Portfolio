@@ -1,0 +1,44 @@
+.coursesStyle , .icons{
+    width: 80%;
+}
+
+@media (max-width :991px) {
+    .coursesStyle {
+        width: 97%;
+    }
+
+    .icons {
+        width: 80%;
+    }
+
+}
+
+
+
+.skillsStyle h1{
+    letter-spacing: 0.7px;
+}
+
+.skillsStyle .coursesStyle div  p {
+    color: var(--text-color);
+
+}
+.skillsStyle .coursesStyle div  .childPar {
+    
+    margin-top: -10px;
+} 
+.borderStyle {
+    border-bottom: 1px solid var(--bolder-color);
+}
+
+.icons .iconItem{
+    border: 1px solid var(--text-color);
+    transition: all 0.3s;
+    background-color: var(--bg-colorbg-color);
+}
+
+.icons .iconItem:hover{
+border-color: var(--second-color);
+box-shadow: 1px 1px 3px var(--second-color);
+transform: scale(1.05) rotate(2deg);
+}

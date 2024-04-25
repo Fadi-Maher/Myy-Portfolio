@@ -1,0 +1,38 @@
+.productDetails{
+    width: 80%;
+}
+@media (max-width: 600px) {
+    .productDetails{
+        width: 93%;
+    }
+  
+    }
+
+.productDetails h1{
+        color: var(--text-color );
+        border-bottom: 1px solid var(--bolder-color);
+    }
+
+.productDetails .coverImg {
+    box-shadow: 5px 5px 10px var(--bolder-color);
+    transition: all 0.5s;
+} 
+
+.productDetails .coverImg:hover{
+    transform: scale(1.05) rotate(1.05deg);
+}
+
+.descProject p {
+color: var(--text-color );
+line-height: 1.4;
+}
+
+.descProject a {
+    color: var(--light-color) !important;
+    background-color: var(--bg-colorbg-color);
+    transition: all 0.3s;
+    width: 200px;
+    border: 1px solid var(--second-color);
+    font-weight: 500;
+    letter-spacing: 0.6px;
+}

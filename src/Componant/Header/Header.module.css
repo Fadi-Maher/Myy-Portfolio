@@ -1,0 +1,82 @@
+.btnColor{
+    
+    background-color: var(--bg-color);
+    color: var(--second-color);
+    border: 1px solid var(--bolder-color);
+    transition: all 0.5s;
+    
+}
+
+.linkStyle{
+    color: var(--text-color) !important;
+    font-weight: 500;
+    transition: all 0.5s;
+}
+
+.btnColor:hover{
+    border: 1px solid var(--rating-color);
+    color: var(--rating-color) ;
+    transform: scale(0.95);
+    
+}
+
+.model {
+    background-color: var(--main-color);
+    border: 1px solid var(--bolder-color);
+}
+
+.model ul li i:hover  {
+    transform: rotate(180deg);
+    
+}
+
+header nav ul {
+    border: var(--bolder-color) 1px solid;
+    gap :2rem;
+    box-shadow: 1px 1px 3px var(--bolder-color);
+    background-color: var(--bg-color);
+   margin-left: 8rem;
+   
+    
+}
+
+.linkStyle:hover {
+color: var(--second-color) !important; 
+}
+.menu{
+    display: none ;
+}
+
+
+header .model{
+    padding: 1rem;
+    width: 50%;
+    animation: 0.7s mymove 1;
+    z-index: 9999999999999;
+    position: fixed ;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 50;
+    
+
+}
+header .model ul li{
+    border-bottom: 1px solid var(--bolder-color);
+    padding-bottom: 0;
+    margin-bottom: 10px;
+}
+
+
+@media (max-width :991px) {
+    .menu{
+        display: block;
+    }
+
+}
+
+@keyframes mymove {
+    0%   {transform: scale(0);}
+    60%  {transform: scale(1.2);}
+    100% {transform: scale(1);}
+  } 

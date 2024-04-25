@@ -1,25 +1,49 @@
-import logo from './logo.svg';
+
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+// import {Header} from "./Componant/Header/Header"
+import {Hero} from "./Componant/Hero/Hero"
+import {Main} from "./Componant/Main/Main"
+import {ContactUs} from "./Componant/ContactUs/ContactUs"
+// import {Footer} from "./Componant/Footer/Footer"
+import  {Notfound} from "./Componant/Notfound/Notfound"
+import {Layout} from './Componant/Layout/Layout';
+import {RouterProvider, createBrowserRouter} from 'react-router-dom';
+import Skills from './Componant/Skils/Skills';
+import Resume from './Componant/Resume/Resume';
+import ProjectDetails from './Componant/ProjectDetails/ProjectDetails';
 
+
+
+function App() {
+
+  let routers = createBrowserRouter([
+    {path : "/" , element : <Layout/> , children:[
+      {path : "Mina-Portfolio" , element :<Hero/>},
+      {path : "contactus" , element :<ContactUs/>},
+      {path : "main" , element :<Main/>},
+      {path : "skills" , element :<Skills/>},
+      {path : "*" , element :<Notfound/>},
+      {path : "hero" , element :<Hero/>},
+      {path : "projectDetails/:id" , element :<ProjectDetails/>},
+      {path : "resume" , element :<Resume/>},
+    ]}
+  ])
+
+  return <>
+  
+
+  <div className=" container container-color">
+  <RouterProvider router={routers}>
+  </RouterProvider>
+  </div>
+  
+  
+  </>
+}
+  {/* <Header/>
+  <Hero/>
+  <Main/>
+  <ContactUs/>
+  <Footer/> */}
 export default App;

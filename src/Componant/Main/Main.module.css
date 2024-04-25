@@ -1,0 +1,65 @@
+.main{
+    width: 80%;
+}
+@media (max-width: 600px) {
+    .main{
+        width: 97%;
+    }
+  
+    }
+/*------------------------------------------- All Btn ---------------------------------------- */
+.main .allBtn button{
+    color: var(--light-color);
+    background-color: var(--bg-colorbg-color);
+    transition: all 0.3s;
+    width: 200px;
+}
+
+.main .allBtn button:hover{
+    opacity: 1;
+}
+
+.main .allBtn .active{
+    border: 1px solid var(--second-color);
+    font-weight: 500;
+    letter-spacing: 0.6px;
+    opacity: 1;
+}
+
+/* ----------------------------- All Card --------------------------  */
+.main .allCard .cardStyle {
+border: 1px solid var(--bolder-color);
+transition: all 0.3s;
+background-image: linear-gradient(rgba(255, 255, 255, 0.03) , rgba(255, 255, 255, 0.03)) ;
+
+background-color: var(--bg-colorbg-color);
+}
+.main .allCard .cardStyle:hover {
+    border: 1px solid var(--second-color) ;
+    transform: rotate(1deg) scale(1.02);
+}
+
+.main .allCard .imgStyle {
+    height: 12rem;
+    border-bottom: 1px solid var(--bolder-color) ;
+    
+}
+.main .allCard .cardStyle h2{
+    color: var(--light-color);
+    letter-spacing: 0.7px;
+
+}
+.main .allCard .cardStyle p{
+    color: var(--text-color);
+}
+.main .allCard .cardStyle .icons i {
+    color: var(--text-color);
+    transition: 0.5s all;
+    font-size: 1.4rem;
+}
+
+.main .allCard .cardStyle .icons i:hover{
+    color: var(--bolder-color);
+    transform: scale(1.1);
+}
+
