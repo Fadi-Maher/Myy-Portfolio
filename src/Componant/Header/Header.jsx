@@ -13,14 +13,17 @@ export  function Header() {
   },[mode])
 
   return <>
-  <header className="w-75 mx-auto   my-4  ">
+  <header className={`${Style.header} mx-auto  my-4 `} >
 
 <nav className="navbar navbar-expand-lg d-flex justify-content-between align-items-center ">
 
 <div className={`${Style.menu}`}>
-    <button className={`btn`} onClick={()=>{setShowUl(true)}} >
+  <div className={`${Style.borderBtn} d-flex justify-content-center align-items-center rounded-circle `}>
+  <button className={`btn`} onClick={()=>{setShowUl(true)}} >
     <i className={`fa-solid fa-bars fs-3 rounded-circle px-3 py-2  ${Style.btnColor}`} ></i>
     </button>
+  </div>
+
     </div>
   <div className="" >
     <div className="collapse navbar-collapse " id="navbarSupportedContent">
@@ -60,8 +63,12 @@ export  function Header() {
       
     }} >
       {mode ==="dark"? 
-      <i className={`fa-regular fs-3 rounded-circle px-3 py-2  fa-moon ${Style.btnColor} `} ></i>:
-      <i className={`fa-solid fs-3 rounded-circle px-3 py-2  fa-sun ${Style.btnColor} `} ></i>
+      <div className={`d-flex justify-content-center align-items-center rounded-circle ${Style.borderBtn} `}>
+      <i className={`fa-solid fs-3     fa-sun ${Style.btnColor} `} ></i>
+            </div>:
+      <div className={` d-flex justify-content-center align-items-center rounded-circle ${Style.borderBtn}  `}>
+      <i className={`fa-solid fs-3     fa-moon ${Style.btnColor} `} ></i>
+            </div>
     }
     
     </button>

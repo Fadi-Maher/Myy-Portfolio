@@ -11,7 +11,7 @@ import Style from "./Main.module.css"
 import { Helmet } from 'react-helmet'
 import { myProjects } from '../Atoms/ProjectAtom';
 import { useRecoilState } from 'recoil';
-import { Fade } from 'react-awesome-reveal';
+import { Fade } from 'react-awesome-reveal'; 
 
 export  function Main() {
 
@@ -83,7 +83,7 @@ className={`${currentActive ==="react" ? Style.active : null} $ btn ms-2 my-2 py
 
     </div>
     <div className={`${Style.allCard} col-md-9 `}>
-<div className={` row  ms-3 mt-3`}>
+<div className={` row  ms-md-3 mt-3`}>
 {arr ? arr.map((item)=><>
  
   <div className='col-md-6 d-flex  ' >

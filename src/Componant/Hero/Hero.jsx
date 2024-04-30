@@ -29,7 +29,7 @@ and teamwork, dedicated to staying updated on industry advancements and emerging
 skills and deliver innovative solutions consistently.</p>
           </div>
 
-          <div className={`${Style.socialIcons} my-5`}>
+          <div className={`${Style.socialIcons} mt-5`}>
             <a href="https://www.linkedin.com/in/karkibo12/" target="_blank">
             <i className='fa fa-brands fa-linkedin fs-3 me-3 cursor-pointer'></i>
             </a>
@@ -63,7 +63,7 @@ skills and deliver innovative solutions consistently.</p>
           </div>
           <div className={`col-md-4 ${Style.developerAnimate}`}>
           <Lottie animationData={developerAnimate}   />
-          </div>
+          </div> 
           </div>
 
         </div>

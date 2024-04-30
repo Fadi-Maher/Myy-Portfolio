@@ -45,9 +45,4 @@ transform: scale(0.95);
     .heroFlex{
         display: block;
     }
-    .developerAnimate{
-        
-        transform: translate(-40px , 0px);
-    }
-    
     }

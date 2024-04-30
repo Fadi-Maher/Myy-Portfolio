@@ -2,9 +2,16 @@
     
     background-color: var(--bg-color);
     color: var(--second-color);
-    border: 1px solid var(--bolder-color);
+    
     transition: all 0.5s;
     
+}
+
+.borderBtn{
+    border: 1px solid var(--bolder-color);
+    height: 3.25rem;
+    width: 3.25rem;
+    transition: all 0.5s;
 }
 
 .linkStyle{
@@ -14,12 +21,14 @@
 }
 
 .btnColor:hover{
-    border: 1px solid var(--rating-color);
+    
     color: var(--rating-color) ;
     transform: scale(0.95);
     
 }
-
+.borderBtn:hover{
+    border: 1px solid var(--rating-color);
+}
 .model {
     background-color: var(--main-color);
     border: 1px solid var(--bolder-color);
@@ -67,8 +76,13 @@ header .model ul li{
     margin-bottom: 10px;
 }
 
-
+.header{
+    width: 80%;
+}
 @media (max-width :991px) {
+    .header{
+        width: 90%;
+    }
     .menu{
         display: block;
     }
