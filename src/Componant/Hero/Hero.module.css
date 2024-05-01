@@ -30,8 +30,8 @@ transform: scale(0.95);
 }
 
 .developerAnimate{
-    width: 31rem !important;
-    transform: translate(0px , 55px);
+    width: 55% !important;
+    transform: translate(0px , 90px);
 }
 
 .heroFlex{
@@ -45,4 +45,10 @@ transform: scale(0.95);
     .heroFlex{
         display: block;
     }
+    .developerAnimate{
+        width: 120% !important;
+        transform: translate(0px , 20px);
+       
+    }
+    
     }

@@ -29,9 +29,9 @@ and teamwork, dedicated to staying updated on industry advancements and emerging
 skills and deliver innovative solutions consistently.</p>
           </div>
 
-          <div className={`${Style.socialIcons} mt-5`}>
+          <div className={`${Style.socialIcons} mt-5 d-flex justify-content-center`}>
             <a href="https://www.linkedin.com/in/karkibo12/" target="_blank">
-            <i className='fa fa-brands fa-linkedin fs-3 me-3 cursor-pointer'></i>
+            <i className='fa fa-brands fa-linkedin fs-3 me-3 cursor-pointer '></i>
             </a>
             <a href="https://github.com/MinaMedhat86" target="_blank">
             <i className='fa fa-brands fa-github fs-3 me-3 cursor-pointer'></i>
@@ -40,7 +40,7 @@ skills and deliver innovative solutions consistently.</p>
             <i class="fa-solid fa-envelope fs-3 me-3 cursor-pointer "></i>
             </a>
             <a href="https://www.instagram.com/karkibo/" target="_blank">
-            <i className='fa fa-brands fa-instagram fs-3 me-3 cursor-pointer'></i>
+            <i className='fa fa-brands  fa-instagram fs-3 me-3 cursor-pointer'></i>
             </a>
             <a href="https://www.facebook.com/mina.medhatrizkallatadross/" target="_blank">
             <i className='fa fa-brands fa-facebook-f fs-3 me-3 cursor-pointer'></i>
@@ -49,7 +49,7 @@ skills and deliver innovative solutions consistently.</p>
             <i className='fa fa-brands fa-whatsapp fs-3 me-3 cursor-pointer'></i>
             </a>
             <a href="https://www.tiktok.com/@karkibo" target="_blank"> 
-            <i className='fa fa-brands fa-tiktok fs-3 me-3 cursor-pointer'></i>
+            <i className='fa fa-brands fa-tiktok fs-3 me-3 cursor-pointer d-flex '></i>
             </a>
             
             
@@ -61,7 +61,7 @@ skills and deliver innovative solutions consistently.</p>
             </Slide>
         
           </div>
-          <div className={`col-md-4 ${Style.developerAnimate}`}>
+          <div className={`col-md-4 ${Style.developerAnimate} justify-content-center`}>
           <Lottie animationData={developerAnimate}   />
           </div> 
           </div>
