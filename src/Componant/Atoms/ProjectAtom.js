@@ -87,6 +87,12 @@ import img10$4 from "../../Assests/Projects/Danials/Screenshot (5).png"
 import img10$5 from "../../Assests/Projects/Danials/Screenshot (6).png"
 import img10$6 from "../../Assests/Projects/Danials/Screenshot (7).png"
 
+import img12 from "../../Assests/Projects/Post CRUD/Screenshot (119).png"
+import img12$1 from "../../Assests/Projects/Post CRUD/Screenshot (120).png"
+import img12$2 from "../../Assests/Projects/Post CRUD/Screenshot (121).png"
+import img12$3 from "../../Assests/Projects/Post CRUD/Screenshot (122).png"
+
+
 import img11 from "../../Assests/Projects/Devfolio/Screenshot (9).png"
 import img11$1 from "../../Assests/Projects/Devfolio/Screenshot (8).png"
 import img11$2 from "../../Assests/Projects/Devfolio/Screenshot (10).png"
@@ -150,13 +156,19 @@ export const myProjects = atom({
         }
          ,demo : "https://minamedhat86.github.io/Product-CRUD-System/" , github : "https://github.com/MinaMedhat86/Product-CRUD-System" , icon : "" }
         
-        ,{id:9 , title : "Danials" , category : "css" , description : "Using HTML5 , CSS3 , Font Awesome , Bootstrap" ,
+        ,{id:9 , title : "Post CRUD System" , category : "js" , description : "Using HTML5 , CSS3 , Font Awesome , Bootstrap , JavaScrip , APIs, Clever Cloud , MySQL , Node JS" ,
         imges : {
-            cover:img10, p1:img10$1,p2:img10$2,p3:img10$3,p4:img10$4,p5:img10$5,p6:img10$6
+            cover:img12, p1:img12$1,p2:img12$2,p3:img12$3
         }
-         ,demo : "https://minamedhat86.github.io/Daniels/" , github : "https://github.com/MinaMedhat86/Daniels" , icon : "fa-solid fa-user-tie" }
-        
-        ,{id:10 , title : "Devfolio" , category : "css" , description : "Using HTML5 , CSS3 , Font Awesome , Bootstrap" ,
+         ,demo : "https://minamedhat86.github.io/Post-CRUDS-System/" , github : "https://github.com/MinaMedhat86/Post-CRUDS-System" , icon : "fa-solid fa-plus" }
+         
+         ,{id:10 , title : "Danials" , category : "css" , description : "Using HTML5 , CSS3 , Font Awesome , Bootstrap" ,
+            imges : {
+                cover:img10, p1:img10$1,p2:img10$2,p3:img10$3,p4:img10$4,p5:img10$5,p6:img10$6
+            }
+             ,demo : "https://minamedhat86.github.io/Daniels/" , github : "https://github.com/MinaMedhat86/Daniels" , icon : "fa-solid fa-user-tie" }
+            
+        ,{id:11 , title : "Devfolio" , category : "css" , description : "Using HTML5 , CSS3 , Font Awesome , Bootstrap" ,
         imges : {
             cover:img11, p1:img11$1,p2:img11$2,p3:img11$3,p4:img11$4,p5:img11$5,p6:img11$6,p7:img11$7
         }
