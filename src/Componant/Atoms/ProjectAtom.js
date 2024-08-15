@@ -93,6 +93,9 @@ import img12$2 from "../../Assests/Projects/Post CRUD/Screenshot (121).png"
 import img12$3 from "../../Assests/Projects/Post CRUD/Screenshot (122).png"
 
 
+
+
+
 import img11 from "../../Assests/Projects/Devfolio/Screenshot (9).png"
 import img11$1 from "../../Assests/Projects/Devfolio/Screenshot (8).png"
 import img11$2 from "../../Assests/Projects/Devfolio/Screenshot (10).png"
@@ -101,6 +104,14 @@ import img11$4 from "../../Assests/Projects/Devfolio/Screenshot (12).png"
 import img11$5 from "../../Assests/Projects/Devfolio/Screenshot (13).png"
 import img11$6 from "../../Assests/Projects/Devfolio/Screenshot (14).png"
 import img11$7 from "../../Assests/Projects/Devfolio/Screenshot (15).png"
+
+import img13 from "../../Assests/Projects/SmartDashboard/num1.PNG"
+import img13$1 from "../../Assests/Projects/SmartDashboard/2.PNG"
+import img13$2 from "../../Assests/Projects/SmartDashboard/3.PNG"
+import img13$3 from "../../Assests/Projects/SmartDashboard/4.PNG"
+import img13$4 from "../../Assests/Projects/SmartDashboard/5.PNG"
+
+
 
 
 export const myProjects = atom({
@@ -112,63 +123,70 @@ export const myProjects = atom({
         }
             ,demo : "https://minamedhat86.github.io/Fresh-Cart/" , github : "https://github.com/MinaMedhat86/Fresh-Cart" , icon : "fa-solid fa-cart-shopping" 
         }
-
-        ,{id:2 , title : "Note App" , category : "react" , description : "Using HTML5 , CSS3 , Font Awesome , Ajax(API) , Bootstrap , JavaScript , React JS" ,
+       
+        ,{id:2 , title : "Smart Dashboard" , category : "react" , description : "Using HTML5 , CSS3 , Font Awesome , Bootstrap , JavaScript , Material UI , React JS" ,
+            imges : {
+                cover:img13, p1:img13$1,p2:img13$2,p3:img13$3,p4:img13$4
+            }
+             ,demo : "https://minamedhat86.github.io/Smart-Dashboard/" , github : "https://github.com/MinaMedhat86/Smart-Dashboard" , icon : "fa-solid fa-table-columns" 
+            }
+        ,{id:3 , title : "Note App" , category : "react" , description : "Using HTML5 , CSS3 , Font Awesome , Ajax(API) , Bootstrap , JavaScript , React JS" ,
         imges : {
             cover:img3, p1:img3$1,p2:img3$2,p3:img3$3,p4:img3$4,p5:img3$5
         }
          ,demo : "https://minamedhat86.github.io/Note-app/" , github : "https://github.com/MinaMedhat86/Note-app" , icon : "fa-solid fa-book" 
         }
 
-        ,{id:3 , title : "Start Framework" , category : "react" , description : "Using HTML5 , CSS3 , Font Awesome , Bootstrap , JavaScript , React" ,
+        ,{id:4 , title : "Start Framework" , category : "react" , description : "Using HTML5 , CSS3 , Font Awesome , Bootstrap , JavaScript , React" ,
         imges : {
             cover:img4, p1:img4$1,p2:img4$2,p3:img4$3,p4:img4$4,p5:img4$5
         }
-         ,demo : "https://minamedhat86.github.io/Start-Framework/" , github : "https://github.com/MinaMedhat86/Start-Framework" , icon : "" }
+         ,demo : "https://minamedhat86.github.io/Start-Framework/" , github : "https://github.com/MinaMedhat86/Start-Framework" , icon : "" 
+        }
         
-        ,{id:4 , title : "Yummy App" , category : "jQuery" , description : "Using HTML5 , CSS3 , Font Awesome , Bootstrap , JavaScript , JQuery , API" ,
+        ,{id:5 , title : "Yummy App" , category : "jQuery" , description : "Using HTML5 , CSS3 , Font Awesome , Bootstrap , JavaScript , JQuery , API" ,
         imges : {
             cover:img5, p1:img5$1,p2:img5$2,p3:img5$3,p4:img5$4,p5:img5$5,p6:img5$6,p7:img5$7,p8:img5$8,p9:img5$9,p10:img5$10
         }
          ,demo : "https://minamedhat86.github.io/Yummy-App/" , github : "https://github.com/MinaMedhat86/Yummy-App" , icon : "fa-solid fa-face-laugh-beam" }
         
-        ,{id:5 , title : "Weather App" , category : "js" , description : "Using HTML5 , CSS3 , Font Awesome , Bootstrap , JavaScript , API" ,
+        ,{id:6 , title : "Weather App" , category : "js" , description : "Using HTML5 , CSS3 , Font Awesome , Bootstrap , JavaScript , API" ,
         imges : {
             cover:img6, p1:img6$1,p2:img6$2,p3:img6$3 ,  p4:img6
         }
          ,demo : "https://minamedhat86.github.io/Weather-App/" , github : "https://github.com/MinaMedhat86/Weather-App" , icon : "fa-solid fa-cloud-bolt" }
         
-        ,{id:6 , title : "Smart Login System" , category : "js" , description : "Using HTML5 , CSS3 , Font Awesome , Bootstrap , JavaScript" ,
+        ,{id:7 , title : "Smart Login System" , category : "js" , description : "Using HTML5 , CSS3 , Font Awesome , Bootstrap , JavaScript" ,
         imges : {
             cover:img7, p1:img7$1,p2:img7$2,p3:img7$3,p4:img7$4,p5:img7$5,p6:img7$6,p7:img7$7
         }
          ,demo : "https://minamedhat86.github.io/Smart-Login-System/pages/" , github : "https://github.com/MinaMedhat86/Smart-Login-System" , icon : "" }
         
-        ,{id:7 , title : "Bookmark CRUD System" , category : "js" , description : "Using HTML5 , CSS3 , Font Awesome , Bootstrap , JavaScript" ,
+        ,{id:8 , title : "Bookmark CRUD System" , category : "js" , description : "Using HTML5 , CSS3 , Font Awesome , Bootstrap , JavaScript" ,
         imges : {
             cover:img8, p1:img8$1,p2:img8$2,p3:img8$3,p4:img8$4
         }
          ,demo : "https://minamedhat86.github.io/Bookmark-CRUD-System/" , github : "https://github.com/MinaMedhat86/Bookmark-CRUD-System" , icon : "fa-solid fa-book" }
         
-        ,{id:8 , title : "Product CRUD System" , category : "js" , description : "Using HTML5 , CSS3 , Bootstrap , JavaScript " ,
+        ,{id:9 , title : "Product CRUD System" , category : "js" , description : "Using HTML5 , CSS3 , Bootstrap , JavaScript " ,
         imges : {
             cover:img9, p1:img9$2,p2:img9$1,p3:img9$3,p4:img9$4,p5:img9$5
         }
          ,demo : "https://minamedhat86.github.io/Product-CRUD-System/" , github : "https://github.com/MinaMedhat86/Product-CRUD-System" , icon : "" }
         
-        ,{id:9 , title : "Post CRUD System" , category : "js" , description : "Using HTML5 , CSS3 , Font Awesome , Bootstrap , JavaScrip , APIs, Clever Cloud , MySQL , Node JS" ,
+        ,{id:10 , title : "Post CRUD System" , category : "js" , description : "Using HTML5 , CSS3 , Font Awesome , Bootstrap , JavaScrip , APIs, Clever Cloud , MySQL , Node JS" ,
         imges : {
             cover:img12, p1:img12$1,p2:img12$2,p3:img12$3
         }
          ,demo : "https://minamedhat86.github.io/Post-CRUDS-System/" , github : "https://github.com/MinaMedhat86/Post-CRUDS-System" , icon : "fa-solid fa-plus" }
          
-         ,{id:10 , title : "Danials" , category : "css" , description : "Using HTML5 , CSS3 , Font Awesome , Bootstrap" ,
+         ,{id:11 , title : "Danials" , category : "css" , description : "Using HTML5 , CSS3 , Font Awesome , Bootstrap" ,
             imges : {
                 cover:img10, p1:img10$1,p2:img10$2,p3:img10$3,p4:img10$4,p5:img10$5,p6:img10$6
             }
              ,demo : "https://minamedhat86.github.io/Daniels/" , github : "https://github.com/MinaMedhat86/Daniels" , icon : "fa-solid fa-user-tie" }
             
-        ,{id:11 , title : "Devfolio" , category : "css" , description : "Using HTML5 , CSS3 , Font Awesome , Bootstrap" ,
+        ,{id:12 , title : "Devfolio" , category : "css" , description : "Using HTML5 , CSS3 , Font Awesome , Bootstrap" ,
         imges : {
             cover:img11, p1:img11$1,p2:img11$2,p3:img11$3,p4:img11$4,p5:img11$5,p6:img11$6,p7:img11$7
         }

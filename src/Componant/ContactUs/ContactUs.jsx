@@ -28,7 +28,7 @@ export function ContactUs() {
             <input type="email" id={`${Style.email}`} className='  ms-2 rounded-2 p-2' name='email' required />
             <ValidationError 
         prefix="Email" 
-        field="email"
+        field="aemil"
         errors={state.errors}
       />
           </div>

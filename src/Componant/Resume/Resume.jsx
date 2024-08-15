@@ -1,5 +1,5 @@
 import React from 'react'
-import resume from "../../Assests/MinaMedhatCV.pdf"
+import resume from "../../Assests/CV/CV-MinaMedhat.pdf"
 import Style from "./Resume.module.css"
 import Lottie from "lottie-react";
 import hiCV from "../../Assests/animation/hiCV.json"
