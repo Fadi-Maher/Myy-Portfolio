@@ -12,7 +12,7 @@ export  function Header() {
     document.body.classList.add(mode);
   },[mode])
 
-  return <>
+  return <div>
   <header className={`${Style.header} mx-auto  my-4 `} >
 
 <nav className="navbar navbar-expand-lg d-flex justify-content-between align-items-center ">
@@ -29,7 +29,7 @@ export  function Header() {
     <div className="collapse navbar-collapse " id="navbarSupportedContent">
       <ul className="navbar-nav me-auto mb-2 mb-lg-0 px-4 rounded-5">
         <li className="nav-item">
-        <Link className={`${Style.linkStyle} nav-link`} to="Mina-Portfolio">Home</Link>
+        <Link className={`${Style.linkStyle} nav-link`} to="Fady-Portfolio">Home</Link>
         </li>
         <li className="nav-item">
           <Link className={`${Style.linkStyle} nav-link`} to="/skills">skills</Link>
@@ -82,7 +82,7 @@ export  function Header() {
           <i className={` ${Style.linkStyle}  cursor-pointer   fa-solid fa-x`}></i>
         </li>
         <li className="nav-item">
-        <Link className={`${Style.linkStyle} nav-link`} to="Mina-Portfolio" onClick={()=>{setShowUl(false)}}>Home</Link>
+        <Link className={`${Style.linkStyle} nav-link`} to="Fady-Portfolio" onClick={()=>{setShowUl(false)}}>Home</Link>
         </li>
         <li className="nav-item">
           <Link className={`${Style.linkStyle}   nav-link`}  to="/skills" onClick={()=>{setShowUl(false)}}>Skills</Link>
@@ -104,5 +104,5 @@ export  function Header() {
     </div>:null}
   
   </header>
-  </>
+  </div>
 }

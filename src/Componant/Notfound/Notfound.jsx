@@ -6,7 +6,7 @@ import {Link} from "react-router-dom"
 
 
 export function Notfound() {
-  return <>
+  return <div>
 
 <section className="py-5 ">
 
@@ -19,5 +19,5 @@ export function Notfound() {
           </div>
 
       </section>
-  </>
+  </div>
 }
