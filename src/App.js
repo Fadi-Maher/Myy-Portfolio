@@ -17,7 +17,7 @@ function App() {
 
   let routers = createBrowserRouter([
     {path : "/" , element : <Layout/> , children:[
-      {path : "Fady-Portfolio" , element :<Hero/>},
+      {path : "Myy-Portfolio" , element :<Hero/>},
       {path : "contactus" , element :<ContactUs/>},
       {path : "main" , element :<Main/>},
       {path : "skills" , element :<Skills/>},

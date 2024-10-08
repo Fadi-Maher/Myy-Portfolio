@@ -29,7 +29,7 @@ export  function Header() {
     <div className="collapse navbar-collapse " id="navbarSupportedContent">
       <ul className="navbar-nav me-auto mb-2 mb-lg-0 px-4 rounded-5">
         <li className="nav-item">
-        <Link className={`${Style.linkStyle} nav-link`} to="Fady-Portfolio">Home</Link>
+        <Link className={`${Style.linkStyle} nav-link`} to="Myy-Portfolio">Home</Link>
         </li>
         <li className="nav-item">
           <Link className={`${Style.linkStyle} nav-link`} to="/skills">skills</Link>
