@@ -42,7 +42,7 @@ if(item.id == id){
         </h1>
         <Slide  direction='left' duration={1000}>
         <picture className=' d-flex justify-content-center'>
-        <img src={element.imges.cover} alt="cover" className={` ${Style.coverImg} rounded-5`} />
+        <img src={element.images.cover} alt="cover" className={` ${Style.coverImg} rounded-5`} />
         </picture>
         </Slide>
         <Fade  direction='up' duration={1000}>
@@ -63,21 +63,21 @@ if(item.id == id){
         <div className="slider-container w-75 position-relative start-50 translate-middle-x ">
       <Slider {...settings} >
         <div className='d-flex align-items-center'>
-          <img src={element.imges.p1} className='w-75 rounded-5 ' alt="1" />
-          <img src={element.imges.p2} className='w-25 rounded-5' alt="2" />
+          <img src={element.images.p1} className='w-75 rounded-5 ' alt="1" />
+          <img src={element.images.p2} className='w-25 rounded-5' alt="2" />
         </div>
       
         <div  className='d-flex align-items-center'>
-          <img src={element.imges.p2} className='w-75 rounded-5 ' alt="2" />
-          <img src={element.imges.p3} className='w-25 rounded-5' alt="2" />
+          <img src={element.images.p2} className='w-75 rounded-5 ' alt="2" />
+          <img src={element.images.p3} className='w-25 rounded-5' alt="2" />
         </div>
         <div  className='d-flex align-items-center'>
-          <img src={element.imges.p3} className='w-75 rounded-5 ' alt="2" />
-          <img src={element.imges.p4} className='w-25 rounded-5' alt="2" />
+          <img src={element.images.p3} className='w-75 rounded-5 ' alt="2" />
+          <img src={element.images.p4} className='w-25 rounded-5' alt="2" />
         </div>
         <div  className='d-flex align-items-center'>
-          <img src={element.imges.p4} className='w-75 rounded-5 ' alt="2" />
-          <img src={element.imges.p1} className='w-25 rounded-5' alt="2" />
+          <img src={element.images.p4} className='w-75 rounded-5 ' alt="2" />
+          <img src={element.images.p1} className='w-25 rounded-5' alt="2" />
         </div>
        
         

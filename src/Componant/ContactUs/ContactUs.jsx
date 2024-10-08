@@ -5,7 +5,7 @@ import { useForm, ValidationError } from '@formspree/react';
 import { Oval } from 'react-loader-spinner'
 import Lottie from "lottie-react";
 import trueAnimate from "../../Assests/animation/Animation - 1713981317589.json";
-import emailAnimation from "../../Assests/animation/emailAnimate.json"
+ import { Slide } from 'react-awesome-reveal';
 export function ContactUs() {
   const [state, handleSubmit] = useForm("mqkrwjzz");
 
@@ -13,12 +13,13 @@ export function ContactUs() {
      <Helmet>
         <meta name="Contact Us" content="This is contact us page to login and put feedback" />
       </Helmet>
+<Slide direction='left' duration={1000}>
+      <section className={`${Style.contactUs}  `}>
+    <h2 className='mt-3 fw-bolder'>
+    <i className="fa-solid fa-envelope me-3"></i>Contact Us
+</h2>
 
-      <section className={`${Style.contactUs} mx-auto`}>
-      <h2 className='mt-3 fw-bolder'>
-      <i class="h1 fa-solid fa-envelope me-3"></i>
-      Contact Us
-        </h2>
+
         <p className='mb-3'>Contact Us for more information and Get notified when I publish something new .</p>
         <div className='row'>
           <div className='col-md-7'>
@@ -57,18 +58,22 @@ export function ContactUs() {
 
              </button>
           {
-            state.succeeded && <><p className='h6 mt-3 d-flex align-items-center justify-content-center'>
+            state.succeeded && <div><p className='h6 mt-3 d-flex align-items-center justify-content-center'>
                <Lottie loop={false} animationData={trueAnimate} className={`${Style.successAnimate}`} />
-              Your message has been sent successfully ..</p></>
+              Your message has been sent successfully ..</p></div>
           }
         </form>
           </div>
-          <div className={`${Style.emailAnimate} col-md-5 `}>
-          <Lottie animationData={emailAnimation}   />
-          </div>
-        </div>
+          
+         </div>
        
       </section>
-  
+  </Slide>
+    <Slide direction='right' duration={1000}>
+          <div className={`${Style.emailAnimate} col-md-5 `}>
+          {/* <Lottie animationData={emailAnimation}   /> */}
+           <img style={{width:420, height:275}} src="https://img.freepik.com/free-photo/hot-line-contact-us-call-center-search-interface_53876-124009.jpg" alt="" />
+          </div> 
+          </Slide>
   </>
 }

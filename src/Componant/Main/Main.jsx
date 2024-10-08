@@ -79,6 +79,19 @@ onClick={()=>{
 }}
 className={`${currentActive ==="react" ? Style.active : null} $ btn ms-2 my-2 py-2 px-2 rounded-4`}
 >React.JS</button>
+
+<button 
+onClick={()=>{
+  setCurrentActive("next")
+  const newArr = projectLength.filter((item)=>{
+    return item.category =="next"
+  })
+  setArr(newArr);
+}}
+className={`${currentActive ==="next" ? Style.active : null} $ btn ms-2 my-2 py-2 px-2 rounded-4`}
+>Next JS</button>
+
+
       </div>
 
     </div>
@@ -89,7 +102,7 @@ className={`${currentActive ==="react" ? Style.active : null} $ btn ms-2 my-2 py
   <div className='col-md-6 d-flex  ' >
   <Fade  direction='right' duration={1000}>
   <Card className={`${Style.cardStyle} mb-3 `} key={item.id}>
-      <Card.Img variant="top" className={`${Style.imgStyle} `} src={item.imges.cover} />
+      <Card.Img variant="top" className={`${Style.imgStyle} `} src={item.images.cover} />
       <Card.Body className='p-3 '>
         <Card.Title> 
           <h2 className=' h4 fw-bolder mb-3'>

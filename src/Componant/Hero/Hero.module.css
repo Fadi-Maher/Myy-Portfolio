@@ -22,6 +22,7 @@ transform: scale(0.95);
 .hero .socialIcons i{
     color: var(--text-color);
     transition: 0.5s all;
+    
 }
 
 .hero .socialIcons i:hover{
@@ -30,8 +31,8 @@ transform: scale(0.95);
 }
 
 .developerAnimate{
-    width: 55% !important;
-    transform: translate(0px , 90px);
+    width: 120% !important;
+    transform: translate(30px , 90px);
 }
 
 .heroFlex{
@@ -40,7 +41,7 @@ transform: scale(0.95);
 
 @media (max-width: 600px) {
     .hero{
-        width: 97%;
+        width: 75%;
     }
     .heroFlex{
         display: block;

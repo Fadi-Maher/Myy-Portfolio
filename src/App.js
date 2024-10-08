@@ -2,7 +2,7 @@
 import './App.css';
 
 // import {Header} from "./Componant/Header/Header"
-import {Hero} from "./Componant/Hero/Hero"
+import Hero from "./Componant/Hero/Hero"
 import {Main} from "./Componant/Main/Main"
 import {ContactUs} from "./Componant/ContactUs/ContactUs"
 // import {Footer} from "./Componant/Footer/Footer"
