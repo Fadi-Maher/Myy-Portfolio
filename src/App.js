@@ -1,12 +1,10 @@
 
 import './App.css';
 
-// import {Header} from "./Componant/Header/Header"
-import Hero from "./Componant/Hero/Hero"
+ import Hero from "./Componant/Hero/Hero"
 import {Main} from "./Componant/Main/Main"
 import {ContactUs} from "./Componant/ContactUs/ContactUs"
-// import {Footer} from "./Componant/Footer/Footer"
-import  {Notfound} from "./Componant/Notfound/Notfound"
+ import  {Notfound} from "./Componant/Notfound/Notfound"
 import {Layout} from './Componant/Layout/Layout';
 import {RouterProvider, createBrowserRouter} from 'react-router-dom';
 import Skills from './Componant/Skils/Skills';
