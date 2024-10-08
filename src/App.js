@@ -30,7 +30,7 @@ function App() {
     ]}
   ])
 
-  return <>
+  return <div>
 
   <div className="container container-color">
   <RouterProvider router={routers}>
@@ -40,11 +40,7 @@ function App() {
 
   
   
-  </>
+  </div>
 }
-  {/* <Header/>
-  <Hero/>
-  <Main/>
-  <ContactUs/>
-  <Footer/> */}
+ 
 export default App;

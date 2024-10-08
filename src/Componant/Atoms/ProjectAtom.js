@@ -88,7 +88,7 @@ export const myProjects = atom({
     default: [
 
 
-             {id:1 , title : "Booking System" , category : "next" , description : "Using HTML5 , CSS3 , Font Awesome ,         Tailwind , JavaScript ,   Next JS" ,
+             {id:1 , title : "Booking System" , category : "next" , description : "Using HTML5 , CSS3 , Font Awesome ,    Firebase(fireStore)    , Tailwind , JavaScript ,   Next JS" ,
             images : {
                 cover:img3, p1:img3$1,p2:img3$2,p3:img3$3,p4:img3$4,p5:img3$5
             }
