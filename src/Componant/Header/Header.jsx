@@ -82,7 +82,7 @@ export  function Header() {
           <i className={` ${Style.linkStyle}  cursor-pointer   fa-solid fa-x`}></i>
         </li>
         <li className="nav-item">
-        <Link className={`${Style.linkStyle} nav-link`} to="Fady-Portfolio" onClick={()=>{setShowUl(false)}}>Home</Link>
+        <Link className={`${Style.linkStyle} nav-link`} to="Myy-Portfolio" onClick={()=>{setShowUl(false)}}>Home</Link>
         </li>
         <li className="nav-item">
           <Link className={`${Style.linkStyle}   nav-link`}  to="/skills" onClick={()=>{setShowUl(false)}}>Skills</Link>
