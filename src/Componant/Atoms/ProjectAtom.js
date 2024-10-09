@@ -80,6 +80,12 @@ import img12$1 from "../../Assests/Projects/NewHeroSection/hero2.png"
 import img13 from "../../Assests/Projects/jqueryGallery/j2.png"
 import img13$1 from "../../Assests/Projects/jqueryGallery/j1.png"
 import img13$2 from "../../Assests/Projects/jqueryGallery/j3.png"
+ 
+import img14 from "../../Assests/Projects/EgyTest/ts1.png"
+import img14$1 from "../../Assests/Projects/EgyTest/ts2.png"
+import img14$2 from "../../Assests/Projects/EgyTest/ts3.png"
+import img14$3 from "../../Assests/Projects/EgyTest/ts4.png"
+import img14$4 from "../../Assests/Projects/EgyTest/ts5.png"
 
 
 
@@ -116,16 +122,15 @@ export const myProjects = atom({
 
  
 
-        ,{id:4 , title : "Landing page mui " , category : "react" , description : "Using HTML5 , CSS 3 , JavaScript , React JS , Font Awesome,  context, Material UI " ,
-         images : {
-            cover:img5, p1:img5$1,p2:img5$2, p3:img5$3 , p4:img5$4 ,p5:img5$5
-        }
-            ,demo : " " , github : " https://github.com/Fadi-Maher/Responsive-Landing-Page-with-React-Material-UI.git" , icon : "fa-brands fa-magento" 
-        }
 
+            ,{id: 4, title : "EgyTest" , category : "react" , description : "Using HTML5 , CSS3 ,TypeScript ,   ,Tailwind , Font Awesome , (Ajax)Api ,  React js  " ,
+        images : {
+            cover:img14, p1:img14$1, p2:img14$2,p3:img14$3,p4:img14$4,
+        }
+         ,demo : " https://film-finder-gilt.vercel.app/" , github : "https://github.com/Fadi-Maher/Film-Finder-React-Js" , icon : " fa-solid fa-film" }
 
+    
  
-
         
         , {id:5 , title : "Crud-Operation" , category : "js" , description : "Using HTML5 , CSS 3 , JavaScript , Bootstrap" ,
          images : {
@@ -202,6 +207,15 @@ export const myProjects = atom({
             cover:img13, p1:img13$1, p2:img13$2
         }
          ,demo : " " , github : "https://github.com/Fadi-Maher/Kids-Gallery--Jquery" , icon : " fa-solid fa-camera" }
+
+
+
+          ,{id:13 , title : "Landing page mui " , category : "react" , description : "Using HTML5 , CSS 3 , JavaScript , React JS , Font Awesome,  context, Material UI " ,
+         images : {
+            cover:img5, p1:img5$1,p2:img5$2, p3:img5$3 , p4:img5$4 ,p5:img5$5
+        }
+            ,demo : " " , github : " https://github.com/Fadi-Maher/Responsive-Landing-Page-with-React-Material-UI.git" , icon : "fa-brands fa-magento" 
+        }
       
     ]
   });
