@@ -3,11 +3,7 @@
      height: 20vh;
 }
 
-@media (max-width: 600px) {
-    .contactUs{
-        width: 97%;
-    }
-    }
+ 
 
     .contactUs h2 i {
         color: var(--text-color);
@@ -26,7 +22,7 @@
         all: unset;
         background-color: var(--bg-colorbg-color);
         border: 1px solid var(--bolder-color);
-        width: 65%;
+        width: 80%;
         transition: all 0.3s;
     }
 
