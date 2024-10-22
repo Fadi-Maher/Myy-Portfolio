@@ -14,7 +14,7 @@ export function ContactUs() {
         <meta name="Contact Us" content="This is contact us page to login and put feedback" />
       </Helmet>
 
-<div className='d-flex justify-content-around'>
+<div className='d-flex justify-content-around flex-wrap'>
 
 
 <Slide direction='right' duration={1000}>
