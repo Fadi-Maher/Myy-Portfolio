@@ -14,17 +14,17 @@ export function ContactUs() {
         <meta name="Contact Us" content="This is contact us page to login and put feedback" />
       </Helmet>
 
-<div className='d-flex justify-content-around flex-wrap'>
+<div className='d-flex justify-content-around flex-wrap  '>
 
 
   
      <section>
-          <div className={`${Style.emailAnimate} col-md-5 `}>
+          <div className={`${Style.emailAnimate} col-md-5    `}>
         {/* <Lottie animationData={emailAnimation}   /> */}
           <img style={{width:420, height:275}} src="https://img.freepik.com/free-photo/hot-line-contact-us-call-center-search-interface_53876-124009.jpg" alt="" />
         </div> 
     </section>
-    
+
 
     <section className={`${Style.contactUs}  `}>
 
