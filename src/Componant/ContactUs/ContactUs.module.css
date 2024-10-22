@@ -1,7 +1,6 @@
 .contactUs{
-    margin-top: 100px;
-    width: 80%;
-    height: 20vh;
+     margin-bottom: 150px;
+     height: 20vh;
 }
 
 @media (max-width: 600px) {
@@ -58,5 +57,5 @@
     }
 
     .emailAnimate{
-        transform: translate(700px,-65px);
+       
     }

@@ -13,11 +13,23 @@ export function ContactUs() {
      <Helmet>
         <meta name="Contact Us" content="This is contact us page to login and put feedback" />
       </Helmet>
-<Slide direction='left' duration={1000}>
-      <section className={`${Style.contactUs}  `}>
-    <h2 className='mt-3 fw-bolder'>
-    <i className="fa-solid fa-envelope me-3"></i>Contact Us
-</h2>
+
+<div className='d-flex justify-content-around'>
+
+
+<Slide direction='right' duration={1000}>
+          <div className={`${Style.emailAnimate} col-md-5 `}>
+          {/* <Lottie animationData={emailAnimation}   /> */}
+           <img style={{width:420, height:275}} src="https://img.freepik.com/free-photo/hot-line-contact-us-call-center-search-interface_53876-124009.jpg" alt="" />
+          </div> 
+ </Slide>
+
+    <Slide direction='left' duration={1000}  >
+     <section className={`${Style.contactUs}  `}>
+
+        <h2 className='mt-3 fw-bolder'>
+          <i className="fa-solid fa-envelope me-3"></i>Contact Us
+        </h2>
 
 
         <p className='mb-3'>Contact Us for more information and Get notified when I publish something new .</p>
@@ -38,9 +50,9 @@ export function ContactUs() {
             <label htmlFor="message">Your Message :</label>
             <textarea name="message" id={`${Style.message}`} className='  ms-2 rounded-2 p-2' required ></textarea>
             <ValidationError 
-        prefix="Message" 
-        field="message"
-        errors={state.errors}
+              prefix="Message" 
+              field="message"
+              errors={state.errors}
       />
           </div>
           <button width={80} height={80} className='btn py-2 px-4 mt-4 position-relative start-50 translate-middle-x rounded-4 fs-5' type="submit" disabled={state.submitting}>
@@ -63,17 +75,24 @@ export function ContactUs() {
               Your message has been sent successfully ..</p></div>
           }
         </form>
+
+
+
+
           </div>
           
+
+
          </div>
        
       </section>
+
+ 
+
+
   </Slide>
-    <Slide direction='right' duration={1000}>
-          <div className={`${Style.emailAnimate} col-md-5 `}>
-          {/* <Lottie animationData={emailAnimation}   /> */}
-           <img style={{width:420, height:275}} src="https://img.freepik.com/free-photo/hot-line-contact-us-call-center-search-interface_53876-124009.jpg" alt="" />
-          </div> 
-          </Slide>
+
+
+ </div>
   </>
 }

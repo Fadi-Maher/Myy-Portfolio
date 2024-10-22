@@ -51,10 +51,10 @@ if(item.id == id){
             <p  className=' h5 mt-3'> <span className='border-bottom fw-semibold me-1'> Category :</span> {element.category}</p>
            <div className=' d-flex justify-content-around my-5'>
            <a href={`${element.demo}`} className='btn'  target='_block'> 
-            <i class="fa-solid fa-eye"></i> Demo 
+            <i className="fa-solid fa-eye"></i> Demo 
              </a>
              <a href={`${element.github}`} className='btn'  target='_block'> 
-            <i class="fa-brands fa-github"></i> Github
+            <i className="fa-brands fa-github"></i> Github
              </a>
            </div>
         </div>

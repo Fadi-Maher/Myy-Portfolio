@@ -4,9 +4,9 @@ import './App.css';
  import Hero from "./Componant/Hero/Hero"
 import {Main} from "./Componant/Main/Main"
 import {ContactUs} from "./Componant/ContactUs/ContactUs"
- import  {Notfound} from "./Componant/Notfound/Notfound"
+import{Notfound} from "./Componant/Notfound/Notfound"
 import {Layout} from './Componant/Layout/Layout';
-import {RouterProvider, createBrowserRouter} from 'react-router-dom';
+import {RouterProvider, createBrowserRouter, Navigate} from 'react-router-dom';
 import Skills from './Componant/Skils/Skills';
 import Resume from './Componant/Resume/Resume';
 import ProjectDetails from './Componant/ProjectDetails/ProjectDetails';
@@ -25,6 +25,7 @@ function App() {
       {path : "hero" , element :<Hero/>},
       {path : "projectDetails/:id" , element :<ProjectDetails/>},
       {path : "resume" , element :<Resume/>},
+      { path: '/', element: <Navigate to="/Myy-Portfolio" /> }, 
     ]}
   ])
 
