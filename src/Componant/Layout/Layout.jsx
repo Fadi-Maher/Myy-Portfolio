@@ -24,7 +24,7 @@ const[showArrow , setShowArrow]=useState(false)
 <div style={{opacity: showArrow ? 1 : 0}} className={`${Style.backToTop} cursor-pointer d-flex  rounded-circle position-fixed justify-content-center align-items-center bottom-0 end-0 mb-4 me-5`}>
 
   <a href="#up" >
-    <i class=" fa-solid fa-arrow-up fw-semibold fs-5 text-white "></i>
+    <i className=" fa-solid fa-arrow-up fw-semibold fs-5 text-white "></i>
   </a>
   
 
