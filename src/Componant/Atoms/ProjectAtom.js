@@ -87,6 +87,12 @@ import img14$2 from "../../Assests/Projects/EgyTest/ts3.png"
 import img14$3 from "../../Assests/Projects/EgyTest/ts4.png"
 import img14$4 from "../../Assests/Projects/EgyTest/ts5.png"
 
+import img15 from "../../Assests/Projects/onlineTask/it1.png"
+import img15$1 from "../../Assests/Projects/onlineTask/it2.png"
+import img15$2 from "../../Assests/Projects/onlineTask/it3.png"
+import img15$3 from "../../Assests/Projects/onlineTask/it4.png"
+import img15$4 from "../../Assests/Projects/onlineTask/it5.png"
+
 
 
 export const myProjects = atom({
@@ -215,6 +221,16 @@ export const myProjects = atom({
             cover:img5, p1:img5$1,p2:img5$2, p3:img5$3 , p4:img5$4 ,p5:img5$5
         }
             ,demo : " " , github : " https://github.com/Fadi-Maher/Responsive-Landing-Page-with-React-Material-UI.git" , icon : "fa-brands fa-magento" 
+        }
+
+
+
+
+          ,{id:14 , title : " (Real estate)  Home , Register , Login Page " , category : "next" , description : "Using HTML5 , CSS 3 , JavaScript , Next JS , Font Awesome,  context, Tailwind css " ,
+         images : {
+            cover:img15, p1:img15$1,p2:img15$2, p3:img15$3 , p4:img15$4  
+        }
+            ,demo : " " , github : "https://github.com/Fadi-Maher/online-task" , icon : "fa-brands fa-magento" 
         }
       
     ]
