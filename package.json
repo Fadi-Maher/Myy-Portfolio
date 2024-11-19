@@ -2,7 +2,7 @@
   "name": "app5",
   "version": "0.1.0",
   "private": false,
-  "homepage": "https://Fadi-Maher.github.io/Myy-Portfolio",
+  "homepage": "/",
 
   "dependencies": {
     "@formspree/react": "^2.5.1",
