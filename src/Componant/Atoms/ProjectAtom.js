@@ -90,6 +90,15 @@ import img16$3 from "../../Assests/Projects/high-level-company/freelance4.png";
 import img16$4 from "../../Assests/Projects/high-level-company/freelance5.png";
 import img16$5 from "../../Assests/Projects/high-level-company/freelance6.png";
 import img16$6 from "../../Assests/Projects/high-level-company/freelance7.png";
+
+
+import img17 from "../../Assests/Projects/product-builder/product-builder1.png";
+import img17$1 from "../../Assests/Projects/product-builder/product-builder2.png";
+import img17$2 from "../../Assests/Projects/product-builder/product-builder3.png";
+import img17$3 from "../../Assests/Projects/product-builder/product-builder4.png";
+import img17$4 from "../../Assests/Projects/product-builder/product-builder5.png";
+import img17$5 from "../../Assests/Projects/product-builder/product-builder6.png";
+import img17$6 from "../../Assests/Projects/product-builder/product-builder7.png";
  
 
 export const myProjects = atom({
@@ -115,51 +124,11 @@ export const myProjects = atom({
     },
 
     {
-      id: 2,
-      title: " (Real Estate)  Home , Register , Login Page ",
-      category: "next",
-      description:
-        "Using HTML5 , CSS 3 , JavaScript , Next JS , Font Awesome,  context, Tailwind css ",
-      images: {
-        cover: img15,
-        p1: img15$1,
-        p2: img15$2,
-        p3: img15$3,
-        p4: img15$4,
-      },
-      demo: " ",
-      github: "https://github.com/Fadi-Maher/online-task",
-      icon: "fa-brands fa-magento",
-    },
-
-
-    {
-        id: 3,
-        title: "high-level-company",
-        category: "next",
-        description:
-          "Using HTML5 , CSS 3 , JavaScript , Next JS , Font Awesome,  tailwind css, Material UI ",
-        images: {
-          cover: img16,
-          p1: img16$1,
-          p2: img16$2,
-          p3: img16$3,
-          p4: img16$4,
-          p5: img16$5,
-          p5: img16$6,
-        },
-        demo: "https://high-level-company-bko68ek7o-fadi-mahers-projects.vercel.app/?vercelToolbarCode=FxZ1FZUXZC0gcAa",
-        github:
-          "https://github.com/Fadi-Maher/high-level-company",
-        icon: "fa-brands fa-magento",
-      },
-
-    {
       id: 4,
       title: "Fresh Cart",
       category: "react",
       description:
-        "Using HTML5 , CSS3 , Font Awesome , Ajax(API) , Tailwind , JavaScript , React JS",
+        "Using HTML5 , CSS3 , Font Awesome , Ajax(API) , Tailwind , JavaScript , React JS, Formik , Yup " ,
       images: {
         cover: img4,
         p1: img4$1,
@@ -178,7 +147,7 @@ export const myProjects = atom({
       title: "Adopt Me",
       category: "react",
       description:
-        "Using HTML5 , CSS3 , Font Awesome , Ajax(API) , Bootstrap , JavaScript , React JS",
+        "Using HTML5 , CSS3 , Font Awesome , Ajax(API) , Bootstrap , JavaScript , React JS, React Query",
       images: {
         cover: img2,
         p1: img2$1,
@@ -192,6 +161,73 @@ export const myProjects = atom({
       github: "https://github.com/Fadi-Maher/Adopt-me-React-Js",
       icon: "fa-solid fa-dog",
     },
+
+
+
+    {
+      id: 16,
+      title: "product-builder-TS",
+      category: "react",
+      description:
+        "Using HTML5 , CSS 3 , JavaScript , React JS , Font Awesome,  tailwind, Material UI , headlessUi ",
+      images: {
+        cover: img17,
+        p1: img17$1,
+        p2: img17$2,
+        p3: img17$3,
+        p4: img17$4,
+        p5: img17$5,
+        p6: img17$6,
+      },
+      demo: "https://product-builder-three.vercel.app/",
+      github:
+        "https://github.com/Fadi-Maher/Myy-Portfolio",
+      icon: "fa-brands fa-figma",
+    },
+
+
+
+    
+    {
+      id: 2,
+      title: " (Real Estate)  Home , Register , Login Page ",
+      category: "next",
+      description:
+        "Using HTML5 , CSS 3 , JavaScript , Next JS , Font Awesome,  context, Tailwind css , Formik   ",
+      images: {
+        cover: img15,
+        p1: img15$1,
+        p2: img15$2,
+        p3: img15$3,
+        p4: img15$4,
+      },
+      demo: " ",
+      github: "https://github.com/Fadi-Maher/online-task",
+      icon: "fa-brands fa-magento",
+    },
+
+
+    {
+        id: 3,
+        title: "high-level-company",
+        category: "next",
+        description:
+          "Using HTML5 , CSS 3 , JavaScript , Next JS , Font Awesome,  tailwind css, Material UI , type writer ",
+        images: {
+          cover: img16,
+          p1: img16$1,
+          p2: img16$2,
+          p3: img16$3,
+          p4: img16$4,
+          p5: img16$5,
+          p5: img16$6,
+        },
+        demo: "https://high-level-company-bko68ek7o-fadi-mahers-projects.vercel.app/?vercelToolbarCode=FxZ1FZUXZC0gcAa",
+        github:
+          "https://github.com/Fadi-Maher/high-level-company",
+        icon: "fa-brands fa-magento",
+      },
+
 
     {
       id: 6,
@@ -365,5 +401,10 @@ export const myProjects = atom({
       icon: "fa-brands fa-magento",
     },
 
+
+    
+
+
+    
   ],
 });
