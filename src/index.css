@@ -111,7 +111,7 @@ a {
 
    @media (max-width: 576px) {
      .responsive-text {
-       font-size: 1.7rem; /* Small screen font size */
+       font-size: 1.8rem; /* Small screen font size */
      }
    }
 

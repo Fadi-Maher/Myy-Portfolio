@@ -55,24 +55,3 @@ transform: scale(0.95);
     }
 
 
-    .responsive-text {
-      font-size: 2rem; /* Default font size */
-    }
-
-    @media (max-width: 576px) {
-      .responsive-text {
-        font-size: 0.2rem; /* Small screen font size */
-      }
-    }
-
-    @media (min-width: 768px) {
-      .responsive-text {
-        font-size: 2.5rem; /* Medium screen font size */
-      }
-    }
-
-    @media (min-width: 992px) {
-      .responsive-text {
-        font-size: 3rem; /* Large screen font size */
-      }
-    }
