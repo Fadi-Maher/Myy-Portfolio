@@ -6,6 +6,7 @@ import { Oval } from 'react-loader-spinner'
 import Lottie from "lottie-react";
 import trueAnimate from "../../Assests/animation/Animation - 1713981317589.json";
  import { Slide } from 'react-awesome-reveal';
+
 export function ContactUs() {
   const [state, handleSubmit] = useForm("mqkrwjzz");
 
@@ -16,12 +17,10 @@ export function ContactUs() {
 
 <div className='d-flex justify-content-around flex-wrap  '>
 
-
-  
-     <section>
+      <section>
           <div className={`${Style.emailAnimate} col-md-5    `}>
         {/* <Lottie animationData={emailAnimation}   /> */}
-          <img style={{width:420, height:275}} src="https://img.freepik.com/free-photo/hot-line-contact-us-call-center-search-interface_53876-124009.jpg" alt="" />
+          <img style={{width:390, height:275}} src="https://img.freepik.com/free-photo/hot-line-contact-us-call-center-search-interface_53876-124009.jpg" alt="" />
         </div> 
     </section>
 

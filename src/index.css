@@ -99,3 +99,30 @@ a {
    
   /* for Firefox */
    html {scrollbar-color: var(--bolder-color) #3d4a59;} 
+
+
+
+
+
+
+   .responsive-text {
+     font-size: 2rem; /* Default font size */
+   }
+
+   @media (max-width: 576px) {
+     .responsive-text {
+       font-size: 1.7rem; /* Small screen font size */
+     }
+   }
+
+   @media (min-width: 768px) {
+     .responsive-text {
+       font-size: 2rem; /* Medium screen font size */
+     }
+   }
+
+   @media (min-width: 992px) {
+     .responsive-text {
+       font-size: 2rem; /* Large screen font size */
+     }
+   }
