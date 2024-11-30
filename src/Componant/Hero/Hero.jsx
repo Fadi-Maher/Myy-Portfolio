@@ -115,7 +115,7 @@ import { Typewriter } from "react-simple-typewriter";
                     deleteSpeed={60}
                     cursorStyle=""
                     delaySpeed={1000}
-                    words={["I'm a dedicated Front-End Developer, recently graduated from the Information Technology Institute (ITI). Specializing in creating modern, responsive, and dynamic web applications, I’m always eager to learn, collaborate, and stay up to date with the latest web technologies to deliver exceptional user experiences " ]}
+                    words={["I'm a dedicated Front-End Developer,  graduated from the Information Technology Institute (ITI). Specializing in creating modern, responsive, and dynamic web applications, I’m always eager to learn, collaborate, and stay up to date with the latest web technologies to deliver exceptional user experiences " ]}
                          />   )}
                             
                  </p>
