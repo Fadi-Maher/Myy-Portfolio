@@ -74,7 +74,7 @@ import { Typewriter } from "react-simple-typewriter";
                 <h2 className="fw-bolder my-5 responsive-text">
                   <Typewriter
                     cursor={true}
-                     typeSpeed={50}
+                     typeSpeed={40}
                     deleteSpeed={50}
                     cursorStyle=""
                     delaySpeed={1000}
