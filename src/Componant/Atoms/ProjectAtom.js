@@ -99,6 +99,13 @@ import img17$3 from "../../Assests/Projects/product-builder/product-builder4.png
 import img17$4 from "../../Assests/Projects/product-builder/product-builder5.png";
 import img17$5 from "../../Assests/Projects/product-builder/product-builder6.png";
 import img17$6 from "../../Assests/Projects/product-builder/product-builder7.png";
+
+
+import img18 from "../../Assests/Projects/tic-tac-toe/tic1.png";
+import img18$1 from "../../Assests/Projects/tic-tac-toe/tic2.png";
+import img18$2 from "../../Assests/Projects/tic-tac-toe/tic3.png";
+import img18$3 from "../../Assests/Projects/tic-tac-toe/tic4.png";
+
  
 
 export const myProjects = atom({
@@ -122,9 +129,10 @@ export const myProjects = atom({
       github: "https://github.com/Fadi-Maher/Booking-system",
       icon: "fa-solid fa-hotel",
     },
-
+   
+  
     {
-      id: 4,
+      id: 2,
       title: "Fresh Cart",
       category: "react",
       description:
@@ -143,7 +151,7 @@ export const myProjects = atom({
       icon: "fa-solid fa-shop ",
     },
     {
-      id: 5,
+      id: 3,
       title: "Adopt Me",
       category: "react",
       description:
@@ -165,7 +173,7 @@ export const myProjects = atom({
 
 
     {
-      id: 16,
+      id: 4,
       title: "product-builder-TS",
       category: "react",
       description:
@@ -189,8 +197,8 @@ export const myProjects = atom({
 
     
     {
-      id: 2,
-      title: " (Real Estate)  Home , Register , Login Page ",
+      id: 5,
+      title: " Real Estate  (Home)   ",
       category: "next",
       description:
         "Using HTML5 , CSS 3 , JavaScript , Next JS , Font Awesome,  context, Tailwind css , Formik   ",
@@ -208,7 +216,7 @@ export const myProjects = atom({
 
 
     {
-        id: 3,
+        id: 6,
         title: "high-level-company",
         category: "next",
         description:
@@ -230,7 +238,7 @@ export const myProjects = atom({
 
 
     {
-      id: 6,
+      id: 7,
       title: "EgyTest",
       category: "react",
       description:
@@ -248,7 +256,29 @@ export const myProjects = atom({
     },
 
     {
-      id: 7,
+      id: 8,
+      title: "Tic-Tac-Toe X&O Game",
+      category: "react",
+      description:
+        "Using HTML5 , CSS3 , Font Awesome ,  Tailwind , JavaScript ,   React JS",
+      images: {
+        cover: img18,
+        p1: img18$1,
+        p2: img18$2,
+        p3: img18$3,
+     
+      },
+      demo: "https://tic-tac-toe-ten-flax.vercel.app/",
+      github: "https://github.com/Fadi-Maher/tic-tac-toe",
+      icon: "fa-solid fa-gamepad",
+    },
+
+
+
+
+
+    {
+      id: 9,
       title: "Crud-Operation",
       category: "js",
       description: "Using HTML5 , CSS 3 , JavaScript , Bootstrap",
@@ -265,7 +295,7 @@ export const myProjects = atom({
     },
 
     {
-      id: 8,
+      id: 10,
       title: "Final Design",
       category: "css",
       description:
@@ -288,7 +318,7 @@ export const myProjects = atom({
     },
 
     {
-      id: 9,
+      id: 11,
       title: "Responsive design",
       category: "css",
       description:
@@ -305,7 +335,7 @@ export const myProjects = atom({
     },
 
     {
-      id: 10,
+      id: 12,
       title: "Fetch Movies",
       category: "next",
       description:
@@ -322,7 +352,7 @@ export const myProjects = atom({
     },
 
     {
-      id: 11,
+      id: 13,
       title: "Generated Card",
       category: "js",
       description: "Using HTML5 , CSS3 ,     JavaScript   ",
@@ -337,7 +367,7 @@ export const myProjects = atom({
     },
 
     {
-      id: 12,
+      id: 14,
       title: "Edit Styling App",
       category: "js",
       description: "Using HTML5 , CSS3 ,     JavaScript   ",
@@ -353,7 +383,7 @@ export const myProjects = atom({
     },
 
     {
-      id: 13,
+      id: 15,
       title: "animated  Section",
       category: "css",
       description: "Using HTML5 , CSS3    ",
@@ -367,7 +397,7 @@ export const myProjects = atom({
     },
 
     {
-      id: 14,
+      id: 16,
       title: "Kids Gallery",
       category: "jQuery",
       description: "Using HTML5 , CSS3 ,Jquery , JavaScript   ",
@@ -382,7 +412,7 @@ export const myProjects = atom({
     },
 
     {
-      id: 15,
+      id: 17,
       title: "Landing page mui ",
       category: "react",
       description:
