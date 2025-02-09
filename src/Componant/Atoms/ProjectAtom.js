@@ -106,6 +106,15 @@ import img18$1 from "../../Assests/Projects/tic-tac-toe/tic2.png";
 import img18$2 from "../../Assests/Projects/tic-tac-toe/tic3.png";
 import img18$3 from "../../Assests/Projects/tic-tac-toe/tic4.png";
 
+
+
+import img19 from "../../Assests/Projects/Delta-company/2.png";
+import img19$1 from "../../Assests/Projects/Delta-company/1.png";
+import img19$2 from "../../Assests/Projects/Delta-company/3.png";
+import img19$3 from "../../Assests/Projects/Delta-company/4.png";
+import img19$4 from "../../Assests/Projects/Delta-company/5.png";
+import img19$5 from "../../Assests/Projects/Delta-company/6.png";
+
  
 
 export const myProjects = atom({
@@ -128,6 +137,24 @@ export const myProjects = atom({
       demo: "https://booking-system-kappa-navy.vercel.app/",
       github: "https://github.com/Fadi-Maher/Booking-system",
       icon: "fa-solid fa-hotel",
+    },
+    {
+      id: 2,
+      title: "Delta Company",
+      category: "next",
+      description:
+        "Using HTML5 , CSS3 , Font Awesome ,    Paython(backEnd)   , Tailwind , JavaScript , React slick,  Next JS",
+      images: {
+        cover: img19,
+        p1: img19$1,
+        p2: img19$2,
+        p3: img19$3,
+        p4: img19$4,
+        p5: img19$5,
+      },
+      demo: "https://www.Delta-90.com",
+      github: "https://github.com/Fadi-Maher/new-design-delta.git",
+      icon: "fa-brands fa-figma",
     },
    
   
@@ -228,7 +255,7 @@ export const myProjects = atom({
           p3: img16$3,
           p4: img16$4,
           p5: img16$5,
-          p5: img16$6,
+          p6: img16$6,
         },
         demo: "https://high-level-company-bko68ek7o-fadi-mahers-projects.vercel.app/?vercelToolbarCode=FxZ1FZUXZC0gcAa",
         github:
